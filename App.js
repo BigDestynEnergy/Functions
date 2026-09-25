@@ -1,4 +1,5 @@
+const text = document.querySelector(".text");
+const list = document.querySelector(".list");
 
-const text = document.querySelector(".text")
 
-text.textContent = `yes`
+text.textContent = `${formatCurrency(7000)}`
